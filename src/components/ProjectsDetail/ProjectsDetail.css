@@ -1,0 +1,19 @@
+.selected-item{
+    flex-direction: column;
+}
+
+.link{
+    padding: 10px;
+}
+
+
+/* responsive added for home page */
+
+@media only screen  and (max-width:688px){
+    .service-container img{
+       
+        width: 300px;
+       
+    
+    }
+}

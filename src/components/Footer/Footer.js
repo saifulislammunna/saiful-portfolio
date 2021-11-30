@@ -1,10 +1,12 @@
 import React from 'react';
-
+import './Footer.css';
 const Footer = () => {
     return (
         <div>
-            <h1>This is footer</h1>
+        <div className="footer">
+            <h5>Copyright {/* <FontAwesomeIcon icon={faCopyright} />  */}2021 <span style={{color:"#FFC014"}}> Saiful Islam Munna</span> | All Rights Reserved</h5>
         </div>
+    </div>
     );
 };
 

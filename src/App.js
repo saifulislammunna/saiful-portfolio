@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer';
  
 import ProjectsDetail from './components/ProjectsDetail/ProjectsDetail';
 import Blogs from './components/Blogs/Blogs';
+import ContactMe from './components/ContactMe/ContactMe';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
               </Route>  
               <Route path="/blogs">
                    <Blogs></Blogs>
+              </Route>  
+              <Route path="/contactme">
+                   <ContactMe></ContactMe>
               </Route>  
           
               

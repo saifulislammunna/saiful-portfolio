@@ -1,1 +1,13 @@
- 
+ .footer{
+    background-color: #111;
+    border-top : 1px solid #E7E7E7;
+    text-align: center;
+    color: white;
+  /*   padding-top: 200px;   */
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%; 
+    font-size: 20px;
+      padding-top: 20px;  
+}

@@ -3,17 +3,25 @@ import {Button,CardGroup,Card} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 /* import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfo } from '@fortawesome/free-solid-svg-icons'; */
- 
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 /* service component */
 const Project = (props) => {
     const {img,name,description,_id} = props.project;
-    const url = `/projects/${_id}`;  
+    const url = `/projects/${_id}`; 
+    AOS.init(); 
     return (
        
         <div>
-            <div className="single-service">
+            <div   data-aos="zoom-in"
+    data-aos-offset="200"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"  className="single-service">
               {/* card group added */}
             <CardGroup >
   <Card  className=" ">

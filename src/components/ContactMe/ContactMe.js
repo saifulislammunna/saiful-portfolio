@@ -22,7 +22,7 @@ const ContactMe = () => {
       e.target.reset();
   };
     return (
-       <div>
+       <div className=" ">
             <div className="contact" id="contact">
            <div className="left">
                  <img src="assets/shake3.png" alt="" />
