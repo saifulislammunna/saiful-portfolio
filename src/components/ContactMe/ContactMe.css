@@ -73,5 +73,33 @@
 
             }
       
+     /* responsive added */
+  @media only screen  and (max-width:688px){
+    .contact {
+         display: flex; 
+         flex-direction: column; 
+        width: 100%;
+       
     
+    }
+    .left {
+          width: 100%;  
+        
+         
+    }
+    .right {
+         
+        width: 100%;  
+    }
+    .contact {
+        align-items: flex-start;
+
+    }
+    .contact  img{
+        height: 50%;
+        
+         
+        
+     }
+  }
  

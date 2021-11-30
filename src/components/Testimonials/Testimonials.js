@@ -16,7 +16,7 @@ export default function Testimonials(){
     return (
     <div className="testimonials" id="testimonials">
             <h1>Testimonials</h1>
-            <div className="container">
+            <div className="testimonial-part">
             {
                    testimonials.map(testimonial => <Testimonial
                         key={testimonial._id}

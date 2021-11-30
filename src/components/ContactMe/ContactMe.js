@@ -23,7 +23,7 @@ const ContactMe = () => {
   };
     return (
        <div className=" ">
-            <div className="contact" id="contact">
+            <div className="contact " id="contact">
            <div className="left">
                  <img src="assets/shake3.png" alt="" />
            </div>

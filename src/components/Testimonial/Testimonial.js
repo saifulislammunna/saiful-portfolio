@@ -7,9 +7,9 @@ const Testimonial = ({ testimonial}) => {
        return(
        
         <div>
-            <div className="single-product p-2">
+            <div className="single-product  p-2">
                  
-            <div className={testimonial.featured ? "card featured" : "card"}>
+            <div className={testimonial.featured ? "kard featured" : "kard"}>
                     <div className="top">
                         <img src="assets/right-arrow.png" className="bam" alt="" />
                         <img className="user

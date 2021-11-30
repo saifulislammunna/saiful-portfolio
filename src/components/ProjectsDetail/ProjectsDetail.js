@@ -39,7 +39,7 @@ const ProjectsDetail = () => {
             <div data-aos="flip-up"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000" className="service-img ">
-            <img     width="400" src={service.img}  alt="" />
+            <img      width="400" src={service.img}  alt="" />
             </div>
            <div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
