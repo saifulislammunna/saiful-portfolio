@@ -1,13 +1,14 @@
 import React from 'react';
 import { Container, Nav, Navbar  } from 'react-bootstrap';
 import {  Link } from 'react-router-dom';
+import './Header.css';
 const Header = () => {
     return (
         <>
         <Navbar bg="dark" sticky="top" collapseOnSelect expand="lg"  variant="dark">
           <Container>
               <Navbar.Text className=" text-white">
-               Saiful.
+              <h3 className="text-white">Saiful.</h3>
             </Navbar.Text>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">

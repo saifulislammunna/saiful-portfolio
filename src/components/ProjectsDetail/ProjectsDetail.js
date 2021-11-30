@@ -3,12 +3,15 @@ import React, { useEffect, useState } from 'react';
 import { Button  } from 'react-bootstrap';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './ProjectsDetail.css';
 
 
 const ProjectsDetail = () => {
     const { _id} = useParams();
     const [service,setService] = useState( []);
+    AOS.init();
     // console.log(params);
     useEffect(()=>{
        
@@ -26,13 +29,21 @@ const ProjectsDetail = () => {
         <div className="service-detail">
            <div className="service-container pt-5">
            
-           <div   className="service-img"  >
-             <img  width="500"  src={service.pic}  alt=""/>
+           <div
+            
+       className="service-img" data-aos="flip-right"
+       data-aos-easing="ease-out-cubic"
+       data-aos-duration="2000" >
+             <img    width="500"  src={service.pic}  alt=""/>
            </div>
-            <div className="service-img ">
-            <img src={service.img}  alt="" />
+            <div data-aos="flip-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className="service-img ">
+            <img     width="400" src={service.img}  alt="" />
             </div>
-           <div  className="service-img  ">
+           <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"  className="service-img  ">
             <img width="400"  src={service.thumb}  alt="" />
             </div>
            </div>
